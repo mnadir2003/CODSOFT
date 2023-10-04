@@ -22,8 +22,6 @@ public class studentGradeCalculator {
             totalMarks += sc.nextInt();
         }
 
-        sc.close();
-
         System.out.println();
         System.out.println("Total : " + totalMarks);
         // Each subject is of 100 Marks
@@ -50,5 +48,6 @@ public class studentGradeCalculator {
             System.out.println("Grade : D");
             break;
         }
+    sc.close();
     }
 }
